@@ -1,0 +1,32 @@
+.topbar-container{
+    height: 50px;
+    flex: 12;
+    
+}
+.topbar-close {
+    justify-content: center;
+    display: flex;
+    float: right;
+    padding-top: 5px;
+}
+.menu-icon {
+    display: none;
+}
+.fa-bars {
+    color: #fff;
+}
+@media screen and (max-width: 960px) {
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+      }
+    .fa-times {
+        color: #fff;
+    }
+}    

@@ -1,0 +1,309 @@
+.container {
+    flex: 9;
+}
+.feed-container{
+    font-size: 25px;
+}
+
+.feed{
+    display: flex;
+    margin: 40px;
+   
+}
+.logo-img {
+    width: 40px;
+    margin-bottom: 15px ;
+    
+}
+.Acecoin-container{
+    margin: 4px;
+    margin-right: 450px;
+   
+}
+.Acecoin {
+    padding: 2px;  
+}
+.leftbar-numbers {
+    align-items: center;
+    font-size: 14px;
+   
+}
+.zero {
+    background-color: #1E2A53;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 3px;
+   
+}
+.one {
+    background-color: #1E2A53;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 3px;
+    margin-left: 1px;
+}
+.onne {
+    background-color: #1E2A53;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 3px;
+    margin-left: 1px;
+}
+.nine {
+    background-color: #1E2A53; 
+    color: #fff;
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 3px;
+    margin-left: 1px;
+}
+.card-section{
+    margin: 40px;
+    font-size: 12px;
+}
+p{
+    margin-bottom: 5px;
+}
+.digit {
+    font-size: 9px;
+    color: #918e9b;
+    border: none;
+    border-radius: none;
+    
+
+}
+.group{
+    margin-left: 500px;
+    font-size: 10px;
+    margin-top: 40px;
+    color: #005DFD;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.edit-icon {
+   margin-right: 7px;
+}
+.container-form{
+   display: grid;
+   
+   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2); 
+   
+   
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    margin-top: 10px;
+}
+.input-cont{
+    width: 710px;
+    height: 40px;
+    justify-content: left;
+    text-align:center;
+    border-radius: 10px;
+    border: 1.5px solid #ddd;
+    background-color: #F9FBFC;
+    font-size: 12px;
+   
+}
+input::placeholder{
+    color: #b7b3b3;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.icone{
+    position: absolute;
+    padding-top: 10px;
+    bottom: 1px;
+    left: 670px;
+    transform: translateY(-50%); 
+    color: #29A3E1;
+    font-size: 15px;
+}
+.iicon{
+    position: absolute;
+    padding-top: 10px;
+    bottom: 2px;
+    left: 10px;
+    transform: translateY(-50%); 
+    color: #E6041F;
+    font-size: 15px;
+    opacity: 1;
+}
+.iconn{
+    position: absolute;
+    padding-top: 10px;
+    bottom: 2px;
+    left: 20px;
+    transform: translateY(-50%); 
+    color: #F79F1B;
+    font-size: 15px;
+    opacity: 1;
+}
+
+.cvv-numbers{
+    
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+}
+
+.input-containss {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    margin-top: 10px;
+    left: 90px;
+}
+.input-fab{
+    width: 71%;
+    height: 40px;
+    padding-block-start: 20px;
+    justify-content: center;
+    text-align:center;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1.5px solid #ddd;
+    background-color: #FBFDFF;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.input-fab::placeholder {
+    color: black; 
+  }
+
+.fab{
+    
+    position: absolute;
+    padding-top: 9px;
+    bottom: 1px;
+    left: 347px;
+    transform: translateY(-50%); 
+    color: #B0B0B0;
+    font-size: 12px;
+    opacity: 1; 
+    
+}
+
+.peo{
+    margin-right: 50px;
+}
+.input-contain {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    left: 150px;
+    width: 50%;
+    
+}
+.input-datee{
+    width: 30%;
+    height: 40px;
+    text-align:center;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    background-color: #FBFDFF;
+    font-size: 12px;
+    margin-right: 79px;
+    font-weight: bold;
+    left: 20px;
+}
+.input-datee::placeholder {
+    color: black; 
+  }
+.input-date{
+    width: 30%;
+    height: 40px;
+    text-align:center;
+    border-radius: 10px;
+    border: 1.5px solid #7CB2FF;
+    background-color: #FBFDFF;
+    font-size: 12px;
+    margin-left:  55px;
+    color: #7CB2FF;
+    font-weight: bold;
+}
+.input-date::placeholder {
+    color: #0f68e5; 
+  }
+.ppp{
+    font-size: 30px; 
+    color: black;
+}
+
+.people{
+    display: grid;
+} 
+
+.input-word{
+
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    margin-top: 10px;
+    left: 92px;
+}
+.input-password{
+    width: 71%;
+    height: 40px;
+    padding-block-start: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1.4px solid #ddd;
+    background-color: #FBFDFF;
+    font-size: 12px; 
+    font-weight: bold;
+    margin-left: 20px;
+}
+.input-password::placeholder {
+    color: black;
+  }
+.icon-password{
+    position: absolute;
+    padding-top: 40px;
+    bottom: 1px;
+    left: 370px;
+    transform: translateY(-50%); 
+    color: #B0B0B0;
+    font-size: 12px;
+    opacity: 1; 
+}
+
+
+.submit{
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 45px;
+    width: 90%;
+    color: #fff;
+    background: #025EFE;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.grop-span{
+    margin-right: 50px;
+    margin-bottom: 20px;
+    
+}
+.input-con{
+    width: 40%;
+    left: 15px;
+    margin-bottom: 20px;
+}
+  
+
+  
+

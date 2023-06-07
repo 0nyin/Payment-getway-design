@@ -1,0 +1,135 @@
+.card{
+    flex: 4;
+ 
+}
+.card-container{
+     display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1100px; 
+    width: 60%;
+    margin-top: 65px;
+    border-radius: 10px;
+    background: #EFF5F9;
+    margin-bottom: 15px;
+}
+
+.cards-item-img:hover {
+    transform: scale(1.1);
+}
+
+.cards__items {
+    margin-bottom: 24px;
+}
+.cards-item-img{
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    max-height: 80%;  
+    object-fit:contain;
+    transition: all 0.2s linear; 
+    margin-bottom: 30px;
+    margin-top: -38px;
+    margin-left: 30px;
+    border-radius: 9px;
+    
+}
+.company{
+    display: flex;
+    margin-left: 37px;
+    
+}
+.cards-infor{
+    font-size: 11px;
+    color: #444;
+    margin-top: 30px;
+}
+.container-apple{
+    display: flex;
+    margin-left: 65px; 
+}
+.order{
+    display: flex;
+    margin-left: 37px;
+}
+.order-number{
+    margin-left: 41px;
+}
+.product{
+    display: flex;
+    margin-left: 37px;
+}
+.prod{
+    margin-right: 50px;
+}
+.vat{
+    display: flex;
+    margin-left: 39px;
+}
+.vate{
+    margin-right: 70px; 
+}
+.icon-circle{
+    display: flex;
+    margin-top: 15px;
+}
+.font-icon{
+    display: flex;
+    
+}
+.icon{
+    color: #fff;
+    position: relative;
+    padding-top: 10px;
+    bottom: 8px;
+    top: 4px;
+    right: 8px;
+    transform: translateY(-50%); 
+    font-size: 15px;
+}
+.pino{
+    color: #444;
+}
+
+.fac{
+    color: #fff;
+    position: relative;
+    padding-top: 10px;
+    bottom: 8px;
+    top: 4px;
+    left: 7px;
+    transform: translateY(-50%); 
+    font-size: 15px;
+}
+.usd{
+    display: flex;
+}
+.invoice{
+    color: #393b3d;
+    position: relative;
+    padding-top: 8px;
+    bottom: 5px;
+    top: 4px;
+    left: 90px;
+    transform: translateY(-50%); 
+    font-size: 20px;
+}
+.five{
+    font-size: 25px;
+}
+/* @media only screen and (min-width: 1200px) {
+    
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }
+
+
+ */
